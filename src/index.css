@@ -1,0 +1,35 @@
+/* First: External font imports */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+/* Tailwind v4 engine import */
+@import "tailwindcss" layer(base);
+
+/* Theme configuration */
+@layer theme {
+  :root {
+    --font-sans: "Sora", sans-serif;
+    --font-mono: "Source Code Pro", monospace;
+    --font-grotesk: "Space Grotesk", sans-serif;
+
+    --color-surface: #1a1a1a;
+    --color-text: #f5f5f5;
+
+    color-scheme: dark;
+  }
+}
+
+/* Base styles */
+@layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-surface);
+    color: var(--color-text);
+    font-size: 1rem;
+  }
+}

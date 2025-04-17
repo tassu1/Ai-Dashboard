@@ -1,12 +1,26 @@
-# React + Vite
+# 🤖 AI-Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive **AI Dashboard** built using **React**, **Vite**, and **Tailwind CSS**. Fast, minimal, and ready to be supercharged with AI features.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive layout across all devices
+- Modular components for flexibility
+- Blazing fast performance with Vite
+- Tailwind-powered sleek UI
+- Built with scalability in mind
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React + Vite
+- **Styling:** Tailwind CSS
+
+## 🚀 Getting Started
+
+Clone the project and run it locally:
+
+```bash
+git clone https://github.com/your-username/Ai-Dashboard.git
+cd Ai-Dashboard
+npm install
+npm run dev
